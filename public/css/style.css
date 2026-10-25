@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222!important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-social,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-social i{
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.f-info{
+    height: 5rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border: none !important ;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight:400;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+.edit-btn{
+     background-color: #fe424d !important;
+    border: none !important;
+}
+
+/*show*/
+
+.btns{
+    display: flex;
+
+}
+/* .edit-btn{
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.del-btn{
+    background-color: black !important;
+    color: whitesmoke  !important;
+} */
+
+/* Reviews */
+
+.review-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.review-author {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.review-comment {
+    color: #555;
+    margin: 10px 0;
+}
+
+.review-rating {
+    color: #ffb400;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.delete-btn {
+    border-radius: 20px;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: inherit;
+}
